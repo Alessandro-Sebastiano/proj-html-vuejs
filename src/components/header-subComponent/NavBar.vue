@@ -10,12 +10,20 @@
                 </li>
             </ul>
         </div>
+
+        <PhoneNumber />
     </div>
 </template>
 
 <script>
+import PhoneNumber from '../PhoneNumber.vue'
+
 export default {
     name: 'NavBar',
+
+    components: {
+        PhoneNumber,
+    },
 
     data() {
         return {
@@ -79,7 +87,7 @@ export default {
 @use '../../assets/styles/partials/variables' as *;
 
 .navbar {
-    width: 66%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -98,7 +106,7 @@ export default {
 
 
     .menu {
-        margin: 0 8px;
+        margin: 0 14px;
         flex-shrink: 0;
 
         ul {
@@ -146,6 +154,10 @@ export default {
                 }
             }
         }
+    }
+
+    .phone-box {
+        flex-shrink: 0;
     }
 }
 </style>

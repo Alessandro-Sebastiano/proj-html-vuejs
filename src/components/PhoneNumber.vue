@@ -1,0 +1,32 @@
+<template>
+    <div class="phone-box">
+        <span><i class="fa-solid fa-phone"></i></span>
+        <span>(555) 802-1234</span>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'PhoneNumber',
+}
+</script>
+
+<style lang="scss" scoped>
+@use '../assets/styles/partials/variables' as *;
+
+.phone-box {
+    padding: 6px 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+
+    span {
+        display: block;
+
+        i {
+            margin-right: 6px;
+            color: $orange;
+        }
+    }
+}
+</style>
