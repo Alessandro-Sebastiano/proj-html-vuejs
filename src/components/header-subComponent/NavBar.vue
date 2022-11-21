@@ -167,6 +167,7 @@ export default {
         margin-left: 12px;
         background-color: $op-orange;
         flex-shrink: 0;
+        color: $orange;
     }
 }
 </style>

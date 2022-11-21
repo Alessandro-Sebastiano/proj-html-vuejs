@@ -1,6 +1,7 @@
 <template>
     <div class="button">
-        <span>{{ btnText }}</span>
+        <span><a href="#">{{ btnText }}</a></span>
+        <i class="fa-solid fa-arrow-right" v-if="btnText == 'Our Services'"></i>
     </div>
 </template>
 
@@ -24,9 +25,13 @@ export default {
 
 
     span {
-        color: $ligth;
         font-size: 14px;
         font-weight: 700;
+    }
+
+    i {
+        vertical-align: middle;
+        margin-left: 12px;
     }
 }
 </style>
