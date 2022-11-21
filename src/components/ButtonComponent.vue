@@ -18,10 +18,11 @@ export default {
 
 .button {
     display: inline-block;
-    padding: 8px 24px;
+    padding: 12px 24px;
     border-radius: 6px;
     background-color: $orange;
     cursor: pointer;
+    color: $ligth;
 
 
     span {
