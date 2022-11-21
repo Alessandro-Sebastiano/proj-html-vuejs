@@ -8,7 +8,7 @@
                 <ButtonComponent btnText="Our Services" />
             </div>
             <div class="hero-form-section">
-
+                <CardForm />
             </div>
         </div>
     </div>
@@ -16,12 +16,14 @@
 
 <script>
 import ButtonComponent from '../ButtonComponent.vue';
+import CardForm from '../CardForm.vue';
 
 export default {
     name: 'HeroComponent',
 
     components: {
         ButtonComponent,
+        CardForm,
     }
 }
 </script>
@@ -32,11 +34,11 @@ export default {
 .hero {
     width: 100%;
     padding-top: 84px;
-    padding-bottom: 134px;
+    padding-bottom: 174px;
     background-image: url(/images/marketing-intro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 0;
+    background-position: center center;
 
 
     .container {
@@ -47,18 +49,17 @@ export default {
 
 
         .hero-text-section {
-            width: 50%;
-            padding-right: 86px;
+            width: 55%;
             color: $ligth;
 
 
             h1 {
-                font-size: 2.8rem;
-                margin: 22px 0;
+                font-size: 3.8rem;
+                margin-bottom: 22px;
             }
 
             p {
-                font-size: 1.2rem;
+                font-size: 1.6rem;
             }
 
 
@@ -74,6 +75,19 @@ export default {
                 }
             }
         }
+
+
+        .hero-form-section {
+            position: relative;
+            padding-left: 26px;
+
+
+            .card-box {
+                position: absolute;
+            }
+        }
+
+
     }
 }
 </style>
