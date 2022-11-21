@@ -1,0 +1,18 @@
+@use './partials/variables' as *;
+
+$fa-font-path: '../webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@200;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
