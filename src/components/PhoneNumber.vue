@@ -15,7 +15,7 @@ export default {
 @use '../assets/styles/partials/variables' as *;
 
 .phone-box {
-    padding: 6px 14px;
+    padding: 6px 18px;
     display: flex;
     align-items: center;
     border-radius: 8px;

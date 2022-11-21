@@ -12,17 +12,20 @@
         </div>
 
         <PhoneNumber />
+        <ButtonComponent btnText="Free Quote" />
     </div>
 </template>
 
 <script>
-import PhoneNumber from '../PhoneNumber.vue'
+import PhoneNumber from '../PhoneNumber.vue';
+import ButtonComponent from '../ButtonComponent.vue';
 
 export default {
     name: 'NavBar',
 
     components: {
         PhoneNumber,
+        ButtonComponent,
     },
 
     data() {
@@ -87,10 +90,10 @@ export default {
 @use '../../assets/styles/partials/variables' as *;
 
 .navbar {
-    width: 75%;
-    margin: 0 auto;
+    width: 1105px;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 
     .logo {
@@ -157,6 +160,12 @@ export default {
     }
 
     .phone-box {
+        flex-shrink: 0;
+    }
+
+    .button {
+        margin-left: 12px;
+        background-color: $op-orange;
         flex-shrink: 0;
     }
 }

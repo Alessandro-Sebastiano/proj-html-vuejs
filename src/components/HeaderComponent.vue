@@ -24,5 +24,8 @@ export default {
     padding: 18px;
     border: 1px solid red;
     background-color: $ligth;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 </style>
