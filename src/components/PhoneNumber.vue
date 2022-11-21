@@ -19,12 +19,13 @@ export default {
     display: flex;
     align-items: center;
     border-radius: 8px;
+    font-weight: 600;
 
     span {
         display: block;
 
         i {
-            margin-right: 6px;
+            margin-right: 12px;
             color: $orange;
         }
     }
