@@ -3,6 +3,7 @@
         <HeroComponent />
         <ConsultantComponent />
         <BrandComponent />
+        <ContactComponent />
     </div>
 </template>
 
@@ -10,7 +11,7 @@
 import HeroComponent from './main-subComponent/HeroComponent.vue';
 import ConsultantComponent from './main-subComponent/ConsultantComponent.vue';
 import BrandComponent from './main-subComponent/BrandComponent.vue';
-
+import ContactComponent from './main-subComponent/ContactComponent.vue';
 
 export default {
     name: 'MainComponent',
@@ -19,6 +20,7 @@ export default {
         HeroComponent,
         ConsultantComponent,
         BrandComponent,
+        ContactComponent,
     },
 }
 </script>
