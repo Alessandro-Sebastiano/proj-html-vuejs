@@ -4,7 +4,8 @@ $fa-font-path: '../webfonts';
 @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '@fortawesome/fontawesome-free/scss/solid.scss';
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@200;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -14,7 +15,7 @@ $fa-font-path: '../webfonts';
 
 
 body {
-    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
