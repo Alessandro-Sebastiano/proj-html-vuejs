@@ -1,7 +1,8 @@
 <template>
     <div class="phone-box">
-        <span><i class="fa-solid fa-phone"></i></span>
-        <span>(555) 802-1234</span>
+        <a href="#">
+            <span><i class="fa-solid fa-phone"></i>(555) 802-1234</span>
+        </a>
     </div>
 </template>
 
@@ -16,13 +17,10 @@ export default {
 
 .phone-box {
     padding: 6px 18px;
-    display: flex;
-    align-items: center;
     border-radius: 8px;
     font-weight: 600;
 
     span {
-        display: block;
 
         i {
             margin-right: 12px;
