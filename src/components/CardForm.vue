@@ -100,6 +100,7 @@ export default {
 
             &:focus {
                 outline: none;
+                border: 2px solid $grey;
             }
         }
 
