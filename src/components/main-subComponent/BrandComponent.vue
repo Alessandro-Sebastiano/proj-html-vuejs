@@ -34,7 +34,6 @@ export default {
 
     h2 {
         font-size: 3rem;
-        font-weight: 600;
         margin-bottom: 14px;
     }
 
