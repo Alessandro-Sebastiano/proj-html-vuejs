@@ -22,6 +22,11 @@ export default {
     background-color: $orange;
     cursor: pointer;
     color: $ligth;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: $dark-orange;
+    }
 
     a {
         padding: 15px 40px;
