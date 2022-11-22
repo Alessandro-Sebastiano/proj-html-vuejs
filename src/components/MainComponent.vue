@@ -5,6 +5,7 @@
         <BrandComponent />
         <ContactComponent />
         <CaseStudies />
+        <presentationComponent />
     </div>
 </template>
 
@@ -14,7 +15,7 @@ import ConsultantComponent from './main-subComponent/ConsultantComponent.vue';
 import BrandComponent from './main-subComponent/BrandComponent.vue';
 import ContactComponent from './main-subComponent/ContactComponent.vue';
 import CaseStudies from './main-subComponent/CaseStudies.vue';
-
+import presentationComponent from './main-subComponent/presentationComponent.vue';
 
 export default {
     name: 'MainComponent',
@@ -25,6 +26,7 @@ export default {
         BrandComponent,
         ContactComponent,
         CaseStudies,
+        presentationComponent,
     },
 }
 </script>
