@@ -21,8 +21,7 @@ export default {
 
 .header {
     width: 100%;
-    padding: 18px;
-    border: 1px solid red;
+    padding: 28px 18px;
     background-color: $ligth;
     display: flex;
     align-items: center;

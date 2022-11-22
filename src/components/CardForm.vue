@@ -40,7 +40,7 @@ export default {
 @use '../assets/styles/partials/variables' as *;
 
 .card-box {
-    width: 415px;
+    width: 438px;
     padding: 38px 27px;
     border-radius: 12px;
     background-color: $ligth;
@@ -108,7 +108,6 @@ export default {
         .button {
             display: block;
             text-align: center;
-            padding: 18px 0;
         }
     }
 

@@ -90,14 +90,13 @@ export default {
 @use '../../assets/styles/partials/variables' as *;
 
 .navbar {
-    width: 1105px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 
     .logo {
-        width: 174px;
+        width: 224px;
         flex-shrink: 0;
 
 
@@ -121,6 +120,7 @@ export default {
 
             li {
                 padding: 0px 16px;
+                font-size: 1.1rem;
 
                 a {
                     text-decoration: none;

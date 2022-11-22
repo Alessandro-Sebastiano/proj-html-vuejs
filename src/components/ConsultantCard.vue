@@ -53,7 +53,7 @@ export default {
 
 .consultant-card-text {
     width: 50%;
-    padding: 22px 78px;
+    padding: 22px 128px;
 
     .title {
         display: flex;

@@ -21,6 +21,7 @@ export default {
     font-weight: 600;
 
     span {
+        font-size: 1.1rem;
 
         i {
             margin-right: 12px;

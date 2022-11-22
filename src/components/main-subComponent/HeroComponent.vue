@@ -39,6 +39,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: local;
 
 
     .container {
@@ -51,10 +52,12 @@ export default {
         .hero-text-section {
             width: 55%;
             color: $ligth;
+            padding-right: 80px;
 
 
             h1 {
-                font-size: 3.8rem;
+                font-size: 4.2rem;
+                font-weight: 500;
                 margin-bottom: 22px;
             }
 
@@ -66,12 +69,14 @@ export default {
             .button {
                 background-color: $ligth;
                 color: $dark;
-                border: 2px solid $ligth;
+                border: 2px solid $dark;
                 margin: 38px 0;
-                transition: all 0.4s ease-in-out;
+                transition: all 0.2s ease-in-out;
 
                 &:hover {
                     background-color: transparent;
+                    border: 2px solid $ligth;
+                    color: $ligth;
                 }
             }
         }
@@ -84,6 +89,7 @@ export default {
 
             .card-box {
                 position: absolute;
+                left: 0;
             }
         }
 

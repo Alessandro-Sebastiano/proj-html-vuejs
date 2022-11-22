@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss">
 .container {
-  width: 1105px;
+  width: 1265px;
   margin: auto;
 }
 </style>
