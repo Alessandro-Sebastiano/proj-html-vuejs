@@ -25,7 +25,6 @@ export default {
 
         i {
             margin-right: 12px;
-            color: $orange;
         }
     }
 }
