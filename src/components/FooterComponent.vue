@@ -112,6 +112,7 @@ export default {
                     margin-bottom: 12px;
                     position: relative;
                     cursor: pointer;
+                    transition: all 0.2s ease-in-out;
 
                     &:after {
                         content: '';
