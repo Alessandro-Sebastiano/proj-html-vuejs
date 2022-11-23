@@ -10,6 +10,7 @@
 </template>
 
 <script>
+
 import HeroComponent from './main-subComponent/HeroComponent.vue';
 import ConsultantComponent from './main-subComponent/ConsultantComponent.vue';
 import BrandComponent from './main-subComponent/BrandComponent.vue';
