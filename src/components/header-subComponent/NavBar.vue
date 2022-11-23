@@ -141,6 +141,7 @@ export default {
                         background-color: $orange;
                         transform: scale(0);
                         transition: all 0.2s ease-in-out;
+                        transition-delay: 0.1s;
                     }
 
                     &:hover {
