@@ -7,6 +7,7 @@
         <CaseStudies />
         <presentationComponent />
         <TeamComponent />
+        <ResourceComponent />
     </div>
 </template>
 
@@ -19,6 +20,7 @@ import ContactComponent from './main-subComponent/ContactComponent.vue';
 import CaseStudies from './main-subComponent/CaseStudies.vue';
 import presentationComponent from './main-subComponent/presentationComponent.vue';
 import TeamComponent from './main-subComponent/TeamComponent.vue';
+import ResourceComponent from './main-subComponent/ResourceComponent.vue';
 
 
 export default {
@@ -32,6 +34,7 @@ export default {
         CaseStudies,
         presentationComponent,
         TeamComponent,
+        ResourceComponent,
     },
 }
 </script>
