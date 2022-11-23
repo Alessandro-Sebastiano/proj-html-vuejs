@@ -65,7 +65,7 @@ export default {
 
     .footer-text-section {
         width: 40%;
-        padding: 0 40px;
+        padding-right: 80px;
 
         h3 {
             font-size: 1.8rem;
