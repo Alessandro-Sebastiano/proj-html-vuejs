@@ -124,11 +124,11 @@ export default {
 
                 a {
                     text-decoration: none;
-                    padding: 6px;
+                    padding: 8px 4px;
                     color: $dark;
                     font-weight: 600;
                     position: relative;
-                    transition: all 0.4s ease-in-out;
+                    transition: all 0.2s ease-in-out;
 
                     &:after {
                         content: '';
@@ -136,10 +136,10 @@ export default {
                         height: 2px;
                         display: block;
                         position: absolute;
-                        bottom: -2px;
+                        bottom: 4px;
                         background-color: $orange;
                         transform: scale(0);
-                        transition: all 0.4s ease-in-out;
+                        transition: all 0.2s ease-in-out;
                     }
 
                     &:hover {
@@ -147,6 +147,7 @@ export default {
 
                         &:after {
                             transform: scale(1);
+                            bottom: -2px;
                         }
                     }
                 }
