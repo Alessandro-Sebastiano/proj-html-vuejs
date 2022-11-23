@@ -124,11 +124,11 @@ export default {
 
                 a {
                     text-decoration: none;
-                    padding: 4px;
+                    padding: 6px;
                     color: $dark;
                     font-weight: 600;
-                    border-bottom: 2px solid $orange;
                     position: relative;
+                    transition: all 0.4s ease-in-out;
 
                     &:after {
                         content: '';
@@ -137,23 +137,24 @@ export default {
                         display: block;
                         position: absolute;
                         bottom: -2px;
-                        right: 0;
-                        background-color: $ligth;
+                        background-color: $orange;
+                        transform: scale(0);
+                        transition: all 0.4s ease-in-out;
                     }
 
                     &:hover {
                         color: $orange;
+
+                        &:after {
+                            transform: scale(1);
+                        }
                     }
                 }
 
                 .active {
                     color: $orange;
 
-                    &:after {
-                        width: 0px;
-                        transition: all 0.4s ease-out;
-
-                    }
+                    border-bottom: 2px solid $orange;
                 }
             }
         }
@@ -168,6 +169,12 @@ export default {
         background-color: $op-orange;
         flex-shrink: 0;
         color: $orange;
+        transition: all 0.1s ease-in-out;
+
+        &:hover {
+            background-color: $orange;
+            color: $ligth;
+        }
     }
 }
 </style>
