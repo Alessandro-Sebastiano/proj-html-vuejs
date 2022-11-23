@@ -6,7 +6,8 @@
         <div class="menu">
             <ul>
                 <li v-for="(item, index) in menuItem"><a href="#" :class="{ active: item.isActive }"
-                        @click="setActive(index)">{{ item.text }}</a>
+                        @click="setActive(index)">{{ item.text }}<i class="fa-solid fa-angle-down"
+                            v-if="item.subMenu"></i></a>
                 </li>
             </ul>
         </div>
@@ -150,12 +151,19 @@ export default {
                             bottom: -2px;
                         }
                     }
+
+
+                    i {
+                        vertical-align: middle;
+                        margin-left: 10px;
+                        font-size: 0.8rem;
+                    }
                 }
 
                 .active {
                     color: $orange;
-
                     border-bottom: 2px solid $orange;
+                    pointer-events: none;
                 }
             }
         }
