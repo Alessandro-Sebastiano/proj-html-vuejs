@@ -97,10 +97,15 @@ export default {
             margin: 16px 0;
             border: 1px solid $grey;
             font-size: 1rem;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                border: 1px solid $orange;
+            }
 
             &:focus {
                 outline: none;
-                border: 2px solid $grey;
+                border: 1px solid $dark-orange;
             }
         }
 
