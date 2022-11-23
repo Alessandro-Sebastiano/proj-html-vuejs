@@ -66,6 +66,12 @@ export default {
 
 
         .contact-info-text {
+
+            h4 {
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+
             span {
                 font-size: 0.9rem;
             }
@@ -74,7 +80,7 @@ export default {
 
         p {
             margin: 0 70px;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             font-weight: 500;
         }
 
@@ -84,7 +90,16 @@ export default {
     .phone-box {
         background-color: $op-orange;
         color: $orange;
-        padding: 12px 24px;
+        padding: 15px 40px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+
+        &:hover {
+            background-color: $dark-orange;
+            color: $ligth;
+        }
+
     }
 
 }
