@@ -8,6 +8,7 @@
         <presentationComponent />
         <TeamComponent />
         <ResourceComponent />
+        <FormComponent />
     </div>
 </template>
 
@@ -21,6 +22,7 @@ import CaseStudies from './main-subComponent/CaseStudies.vue';
 import presentationComponent from './main-subComponent/presentationComponent.vue';
 import TeamComponent from './main-subComponent/TeamComponent.vue';
 import ResourceComponent from './main-subComponent/ResourceComponent.vue';
+import FormComponent from './main-subComponent/FormComponent.vue';
 
 
 export default {
@@ -35,6 +37,7 @@ export default {
         presentationComponent,
         TeamComponent,
         ResourceComponent,
+        FormComponent,
     },
 }
 </script>
